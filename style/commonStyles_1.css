@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 430px;
+  margin: 0 auto;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.accordion {
+  margin: 22px 0px;
+  font-family: 'Lato';
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+
+.accordion__control {
+  padding: 18px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.accordion__title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.accordion__info {
+  padding: 18px;
+  padding-top: 0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+}

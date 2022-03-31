@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Lato';
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 430px;
+  margin: 0 auto;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.accordion__list {
+  list-style: none;
+}
+
+.accordion {
+  margin: 22px 0px;
+  font-family: 'Lato';
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+
+.accordion__control {
+  width: 100%;
+  padding: 18px;
+  list-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.accordion__title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.accordion__info {
+  padding: 18px;
+  padding-top: 0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+  display: none;
+}
+
+.open .accordion__info {
+  display: block;
+}
